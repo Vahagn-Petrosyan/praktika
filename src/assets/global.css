@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 *,
 *::after,
@@ -8,6 +11,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.hero-title {
+  font-family: 'Caveat', cursive;
 }
 
 body {
@@ -24,6 +31,6 @@ button {
   height: 50px;
 }
 
-.App{
+.App {
   width: 100%;
 }

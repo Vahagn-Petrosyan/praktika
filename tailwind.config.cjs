@@ -10,6 +10,7 @@ module.exports = {
       "black": "#000000",
       "footBlack": "#283746",
       "yellow": "#FFAB00",
+      "gray-black": "#283746",
     },
     extend: {
       backgroundImage: {
