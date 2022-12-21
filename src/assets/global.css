@@ -1,36 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .hero-title {
-  font-family: 'Caveat', cursive;
+	font-family: "Caveat", cursive;
 }
 
 body {
-  width: 100%;
-  min-height: 100vh;
+	width: 100%;
+	min-height: 100vh;
 }
 
 button {
-  background: #ffab00;
-  border-radius: 10px;
-  color: white;
-  text-transform: uppercase;
-  width: 150px;
-  height: 50px;
+	background: #ffab00;
+	border-radius: 10px;
+	color: white;
+	text-transform: uppercase;
+	width: 150px;
+	height: 50px;
 }
 
 .App {
-  width: 100%;
+	width: 100%;
+}
+
+nav {
+	filter: drop-shadow(0px 0px 16px rgba(44, 54, 64, 0.14));
+}
+
+.event-main {
+	width: calc(100% - 404px);
+}
+
+.event-container {
+	filter: drop-shadow(0px 4px 22px rgba(0, 0, 0, 0.25));
 }
