@@ -1,0 +1,19 @@
+.dropdown {
+	width: 100%;
+	transition: 0.5s all ease;
+}
+
+.dropdown li {
+	height: 0;
+	opacity: 0;
+	transition: 0.5s all ease;
+	font-size: 20px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.dropdown.active li {
+	opacity: 1;
+	height: 50px;
+}
