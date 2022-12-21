@@ -14,7 +14,7 @@ export default function Navbar() {
   }, []);
   return (
     <nav
-      className={`flex flex-row gap-[170px] h-[126px] w-full fixed ${!scrollWidth ? "bg-transparent " : "bg-white"} items-center justify-center`}
+      className={`flex flex-row gap-[170px] h-[126px] w-full fixed ${!scrollWidth ? "bg-transparent transition-all " : "bg-white transition-all"} items-center justify-center`}
       ref={navbarRef}
     >
       <h1 className="text-yellow text-4xl mb-[5px]">EvenTracking</h1>
