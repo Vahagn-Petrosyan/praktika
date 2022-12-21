@@ -12,7 +12,9 @@ module.exports = {
       "yellow": "#FFAB00",
       "gray-black": "#283746",
       "hero-button": "#f8f8f8",
-      'search': "#6C757D"
+      "search": "#6C757D",
+      "gradientfirst":"#3D70F0",
+      "gradientsecond":"#B561C8",
     },
     extend: {
       backgroundImage: {
