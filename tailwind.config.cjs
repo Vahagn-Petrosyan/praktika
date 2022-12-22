@@ -29,7 +29,8 @@ module.exports = {
 		extend: {
 			backgroundImage: {
 				"hero-pattern": "url('/herobg.jpg')",
-				"upcoming-pattern": "url('/upcomingbg.png')"
+				"upcoming-pattern": "url('/upcomingbg.png')",
+				"login-pattern": "url('/login.png')"
 			}
 		}
 	},
