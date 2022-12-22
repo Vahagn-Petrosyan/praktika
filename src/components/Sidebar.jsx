@@ -13,11 +13,29 @@ export const Sidebar = () => {
 					<ListItem>Paid</ListItem>
 				</Dropdown>
 				<Dropdown title="Category">
-					<li>Category</li>
-					<li>Community</li>
-					<li>Sience & Tech</li>
-					<li>Goverment</li>
-					<li>Other</li>
+					<ListItem>Business</ListItem>
+					<ListItem>Community</ListItem>
+					<ListItem>Science & Tech</ListItem>
+					<ListItem>Goverment</ListItem>
+					<ListItem>Other</ListItem>
+				</Dropdown>
+				<Dropdown title="Format">
+					<ListItem>Class</ListItem>
+					<ListItem>Conference</ListItem>
+					<ListItem>Expo</ListItem>
+					<ListItem>Other</ListItem>
+				</Dropdown>
+				<Dropdown title="Language">
+					<ListItem>Any</ListItem>
+					<ListItem>Armenian</ListItem>
+					<ListItem>Russian</ListItem>
+					<ListItem>English</ListItem>
+				</Dropdown>
+				<Dropdown title="Currency">
+					<ListItem>USD</ListItem>
+					<ListItem>Euro</ListItem>
+					<ListItem>RUB</ListItem>
+					<ListItem>AMD</ListItem>
 				</Dropdown>
 			</div>
 		</aside>

@@ -1,0 +1,29 @@
+.custom-select__control{
+    width: 192px !important;
+    border: none !important;
+    background-color: #f8f8f8 !important;
+
+}
+.custom-select__control--menu-is-open , .custom-select__control--is-focused{
+    box-shadow: 0 0 0 1px #FFAB00 !important;
+
+}
+.custom-select__option{
+    cursor: pointer !important;
+}
+.custom-select__option--is-focused , .custom-select__option:hover{
+    background-color: rgb(255, 171, 0) !important;
+    color: white !important;
+}
+.custom-select__option:not(hover){
+    background-color: white;
+    color: black;
+}
+.custom-select__option:active{
+    background-color: rgba(255, 171, 0,0.5) !important;
+    color: aliceblue !important;
+}
+.custom-select__control .custom-select__option:checked{
+    background-color: rgb(235, 171, 0) !important;
+    color: white !important;
+}
