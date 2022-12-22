@@ -39,8 +39,8 @@ export default function Navbar() {
 				</ul>
 
 				<div className="flex flex-row item-center gap-10">
-					<button className="bg-transparent text-yellow border border-yellow">log in</button>
-					<button>sign up</button>
+				<Link to ="/login"><button className="bg-transparent text-yellow border border-yellow">log in</button></Link>
+				<Link to ="/registration"><button>sign up</button></Link>
 				</div>
 			</nav>
 		)
@@ -67,8 +67,8 @@ export default function Navbar() {
 				</ul>
 
 				<div className="flex flex-row item-center gap-10">
-					<button className="bg-transparent text-yellow border border-yellow">log in</button>
-					<button>sign up</button>
+				<Link to ="/login"><button className="bg-transparent text-yellow border border-yellow">log in</button></Link>
+					<Link to ="/registration"><button>sign up</button></Link>
 				</div>
 			</nav>
 		)

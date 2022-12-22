@@ -25,6 +25,7 @@ module.exports = {
 			monetizing1: "#625EB1",
 			monetizing2: "#22E1FF",
 			speaker: "#5A5A5A",
+			loginplaceholder: "#666666" 
 		},
 		extend: {
 			backgroundImage: {
