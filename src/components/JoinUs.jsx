@@ -5,7 +5,7 @@ export const JoinUs = () => {
     <div className='w-full mt-24 flex flex-col items-center'>
         <p className='uppercase text-lg font-medium text-center'>why join us</p>
         <h1 className='text-yellow text-4xl font-extrabold text-center'>Event Outcomes</h1>
-        <img src="/Vector.svg" className='mt-7'/>
+        <img src="/Vector.svg" className='mt-7' />
         <div className='flex flex-row gap-x-9 mt-20'>
             <div className='joinus-event-outcomes w-[250px] h-[250px] gap-y-4 rounded-full flex flex-col justify-center items-center bg-gradient-to-tr from-buildingl to-building2'>
                 <img src="/building.svg" className='w-28 h-28'/>

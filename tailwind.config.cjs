@@ -31,7 +31,8 @@ module.exports = {
 			backgroundImage: {
 				"hero-pattern": "url('/herobg.jpg')",
 				"upcoming-pattern": "url('/upcomingbg.png')",
-				"login-pattern": "url('/login.png')"
+				"login-pattern": "url('/login.png')",
+				"about-pattern": "url('/aboutbg.png')"
 			}
 		}
 	},
