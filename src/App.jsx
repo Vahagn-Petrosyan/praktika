@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Layout } from "./layouts/Layout";
 import About from "./pages/About";
+import { EventDetails } from "./pages/EventDetails";
 import Events from "./pages/Events";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -15,6 +16,8 @@ function App() {
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="events" element={<Events />} />
+          
+          <Route path="eventdetails" element={<EventDetails />} />
           </Route>
           <Route path="login" element={<Login />} />
           <Route path="registration" element={<Registration />} />

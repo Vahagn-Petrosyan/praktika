@@ -32,7 +32,8 @@ module.exports = {
 				"hero-pattern": "url('/herobg.jpg')",
 				"upcoming-pattern": "url('/upcomingbg.png')",
 				"login-pattern": "url('/login.png')",
-				"about-pattern": "url('/aboutbg.png')"
+				"about-pattern": "url('/aboutbg.png')",
+				"eventdetails-pattern": "url('/eventdetailsbg.svg')"
 			}
 		}
 	},
