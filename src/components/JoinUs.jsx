@@ -40,7 +40,7 @@ export const JoinUs = () => {
 			<p className="uppercase text-lg font-medium text-center">why join us</p>
 			<h1 className="text-yellow text-4xl font-extrabold text-center">Event Outcomes</h1>
 			<img src="/Vector.svg" className="mt-7" />
-			<div className="flex flex-row gap-x-9 mt-20">
+			<div className="flex flex-row gap-x-9 mt-20 cursor-pointer">
 				{eventsDesc.map(item => (
 					<OutcomeEvents
 						gradient={item.gradient}

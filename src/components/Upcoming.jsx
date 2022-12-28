@@ -7,7 +7,7 @@ export const Upcoming = () => {
   const [minutes, setMinutes] = useState(0);
 
 
-  const deadline = "December, 25, 2022";
+  const deadline = "December, 25, 2023";
 
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now();
@@ -39,7 +39,7 @@ export const Upcoming = () => {
             <h1 className='text-extrabold text-6xl text-white'>It's Crazy, It's Awesome</h1>
             <p className='text-2xl font-medium text-white w-[687px]'>How you transform your business as technology, consumer, habits industry dynamis change?
               Find out from those leading the charge.</p>
-            <p className='text-xl font-light text-white italic'>25 to 27 December 2022, Waterfront Hotel, London</p>
+            <p className='text-xl font-light text-white italic'>25 to 27 December 2023, Waterfront Hotel, London</p>
           </div>
         </div>
         <div className='w-[800px] h-[200px] bg-gradient-to-r from-gradientfirst to-gradientsecond -mt-[100px] bottom-0 mx-auto px-[215px] gap-x-10 flex flex-row justify-center'>
